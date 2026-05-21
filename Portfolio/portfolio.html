@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/portfolio.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <nav>
+                <ul>
+                    <li style="color: white; font-size: 20px;">Christopher Chan | </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about-me.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+     
+        <!-- GRID -->
+        <section class="portfolio-grid">
+                       <!-- Card 4: Video -->
+            <article class="card card--video" data-category="video" style="--accent: #a05050;">
+                <div class="card-badge">Video Production</div>
+                <div class="card-body">
+                    <h2 class="card-title">Video Project</h2>
+                    <p class="card-desc">A video production sample which revolves around how people use films and technology as a means of escaping from reality. Connecting films from Hollywood's “Golden Age” to human behavior and demonstrating creative direction, editing, and storytelling skills. </p>
+                    <ul class="card-tags">
+                        <li>Video Editing</li>
+                        <li>Technology and Human Behavior</li>
+                        <li>Production</li>
+                    </ul>
+                    <div class="video-wrapper">
+                        <video controls preload="metadata">
+                            <source src="/Video/chan.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="card-meta">May 2026</span>
+                </div>
+            </article>
+            <!-- Card 1: Grant Proposal -->
+            <article class="card" data-category="writing" style="--accent: #7c6fa0;">
+                <div class="card-badge">Grant Proposal</div>
+                <div class="card-body">
+                    <h2 class="card-title">Addressing the Digital Divide</h2>
+                    <p class="card-desc">A full grant proposal submitted to the Institute of Museum and Library Services, requesting $75,000 to fund a digital literacy program for senior citizens at the Thomas Crane Public Library in Quincy, MA.</p>
+                    <ul class="card-tags">
+                        <li>Nonprofit Writing</li>
+                        <li>Research</li>
+                        <li>Technical Communication</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a class="card-link" href="/Writing/Chris_grant_proposal.pdf" target="_blank">
+                        <span>View PDF</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                    <span class="card-meta">26 pages</span>
+                </div>
+            </article>
+ 
+            <!-- Card 2: Word Manual -->
+            <article class="card featured" data-category="technical" style="--accent: #3a6ea8;">
+                <div class="card-badge">User Manual</div>
+                <div class="card-body">
+                    <h2 class="card-title">Shifting from Google Docs to Microsoft Word</h2>
+                    <p class="card-desc">A college student's guide to Microsoft Word 365, covering document creation, lists, fonts, page customization, citations, sharing, and the built-in Editor tool — with annotated screenshots throughout.</p>
+                    <ul class="card-tags">
+                        <li>Technical Writing</li>
+                        <li>Instructional Design</li>
+                        <li>UX Documentation</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a class="card-link" href="/Writing/Chris C Word Manual.pdf" target="_blank">
+                        <span>View Manual</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                    <span class="card-meta">28 pages</span>
+                </div>
+            </article>
+ 
+            <!-- Card 3: Portfolio Website -->
+            <article class="card" data-category="technical" style="--accent: #3a8a6e;">
+                <div class="card-badge">Web Project</div>
+                <div class="card-body">
+                    <h2 class="card-title">Digital Accessibility Website</h2>
+                    <p class="card-desc">A multi-page site built using MadCap Flare which informs users about digital accessibility. Features a responsive navigation bar, hero image layout, contact form, resume page, and styled footer with social links.</p>
+                    <ul class="card-tags">
+                        <li>HTML & CSS</li>
+                        <li>MadCap Flare</li>
+                        <li>Digital Accessibility</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a class="card-link" href="https://chrischan2003.github.io/HTML5/Content/Home.htm" target="_blank">
+                        <span>Visit Site</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                    <span class="card-meta">2026 · Live Site</span>
+                </div>
+            </article>
+ 
+        </section>
+ 
+    </main>
+        <footer>
+            <ul>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <li style="color: white;">Email: c.chan2003@gmail.com | </li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/christopher-chan-50693727a/" target="_blank"><ion-icon name="logo-linkedin">linkedin</ion-icon></a></li>
+            <li><a class="github" href="https://github.com/ChrisChan2003/ChrisChan2003.github.io" target="_blank"><ion-icon name="logo-github">github</ion-icon></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
